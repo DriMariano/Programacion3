@@ -47,7 +47,7 @@ namespace TP1_GRUPO_1
             this.btnEjercicio1.Name = "btnEjercicio1";
             this.btnEjercicio1.Size = new System.Drawing.Size(122, 45);
             this.btnEjercicio1.TabIndex = 0;
-            this.btnEjercicio1.Text = "EJERCICIO 1";
+            this.btnEjercicio1.Text = "EJ 1";
             this.btnEjercicio1.UseVisualStyleBackColor = false;
             this.btnEjercicio1.Click += new System.EventHandler(this.btnEjercicio1_Click);
             // 
