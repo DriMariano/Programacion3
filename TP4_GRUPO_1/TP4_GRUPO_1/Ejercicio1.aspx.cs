@@ -17,12 +17,39 @@ namespace TP4_GRUPO_1
         {
             if (!IsPostBack)
             {
-                cargar_provincia();
+                cargarProvincia();
             }
 
         }
 
-        public void cargar_provincia()
+        protected void ddlProvInicio_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+            cargarLocalidades(ddlProvInicio.SelectedValue, ddlLocalidadInicio);
+
+            if (ddlProvInicio.SelectedValue != "0")
+            {
+                ddlProvFinal.Enabled = true;
+                cargarProvinciasFinal(ddlProvInicio.SelectedValue); //llamada al metodo
+            }
+            else
+            {  
+                ddlProvFinal.Enabled = false;  
+                ddlProvFinal.Items.Clear();
+                ddlProvFinal.Items.Insert(0, new ListItem("--Seleccionar--", "0"));
+            }
+            ddlLocalidadFinal.Items.Clear();
+            ddlLocalidadFinal.Items.Insert(0, new ListItem("--Seleccionar--", "0"));
+
+        }
+
+        protected void ddlProvFinal_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            cargarLocalidades(ddlProvFinal.SelectedValue, ddlLocalidadFinal); 
+        }
+
+
+        public void cargarProvincia()
         {
             ///Establecer la conexión a la base de datos en SQL Server
 
@@ -34,9 +61,9 @@ namespace TP4_GRUPO_1
             SqlCommand comando = new SqlCommand(consultaSQL, conexion);
             SqlDataReader sqlDataReader = comando.ExecuteReader();
 
-            /// Asignar la tabla de datos como origen de datos del DropDownList
+            /// Asigno la tabla de datos como origen de datos del DropDownList
 
-            ddlProvInicio.DataSource = sqlDataReader;
+            ddlProvInicio.DataSource = sqlDataReader;  
             ddlProvInicio.DataTextField = "NombreProvincia";
             ddlProvInicio.DataValueField = "IdProvincia";
             ddlProvInicio.DataBind();
@@ -45,13 +72,12 @@ namespace TP4_GRUPO_1
             conexion.Close();
         }
 
-        public void cargar_localidades(string IdProvincia)
+        public void cargarLocalidades(string idProvincia, DropDownList ddlLocalidades)
         {
             ///Establecer la conexión a la base de datos en SQL Server
 
             SqlConnection conexion = new SqlConnection(cadenaConexion);
             conexion.Open();
-
 
             /// Consulta SQL que se desea ejecutar
 
@@ -59,22 +85,45 @@ namespace TP4_GRUPO_1
             comando.Connection = conexion;
             comando.CommandType = CommandType.StoredProcedure;
             comando.CommandText = "spCargarLocalidades";
-            comando.Parameters.Add("@idprovincia", SqlDbType.Int).Value = IdProvincia;
+            comando.Parameters.Add("@idprovincia", SqlDbType.Int).Value = idProvincia;
            
             /// Asignar la tabla de datos como origen de datos del DropDownList
 
-            ddlLocalidadInicio.DataSource = comando.ExecuteReader();
-            ddlLocalidadInicio.DataTextField = "NombreLocalidad";
-            ddlLocalidadInicio.DataValueField = "IdLocalidad";
-            ddlLocalidadInicio.DataBind();
-            ddlLocalidadInicio.Items.Insert(0, new ListItem("--Seleccionar--", "0"));
-
+            ddlLocalidades.DataSource = comando.ExecuteReader();
+            ddlLocalidades.DataTextField = "NombreLocalidad";
+            ddlLocalidades.DataValueField = "IdLocalidad";
+            ddlLocalidades.DataBind();
+            ddlLocalidades.Items.Insert(0, new ListItem("--Seleccionar--", "0"));
+       
             conexion.Close();
         }
 
-        protected void ddlProvInicio_SelectedIndexChanged(object sender, EventArgs e)
+        private void cargarProvinciasFinal(string idProvincia) //Recibe el Id (value) de la provincia seleccionada en el ddlProvInicio
         {
-            cargar_localidades(ddlProvInicio.SelectedValue);
+            ///Establezco y abro la conexión a la base de datos en SQL Server
+            
+            SqlConnection conexion = new SqlConnection(cadenaConexion);
+            conexion.Open();
+           
+            /// Realizo la consulta SQL que se desea ejecutar
+           
+            SqlCommand comando = new SqlCommand();  //Creo una nueva instancia de un comando SQL
+            comando.Connection = conexion;           //conecto el comando a la conexion SQL
+            comando.CommandType = CommandType.StoredProcedure;  //Asigno el tipo de comando a utilizar (Procedimiento Almacenado)
+            comando.CommandText = "spCargarProvinciasFinal";   // asigno el nombre del Procedimiento
+            comando.Parameters.Add("@idprovincia", SqlDbType.Int).Value = idProvincia;  // doy Valor al parametro que recibira el Procedimiento
+
+            /// Asigno la tabla de datos como origen de datos del DropDownList
+            
+            ddlProvFinal.DataSource = comando.ExecuteReader(); // establesco la fuente de datos
+            ddlProvFinal.DataTextField = "NombreProvincia";   // establesco el campo
+            ddlProvFinal.DataValueField = "IdProvincia";      // establesco el value
+            ddlProvFinal.DataBind();                         // relleno el DDL
+            ddlProvFinal.Items.Insert(0, new ListItem("--Seleccionar--", "0"));  // agrego un item al DDL
+
+            conexion.Close(); // cierro la conexion a la base de datos
         }
+     
+       
     }
 }
