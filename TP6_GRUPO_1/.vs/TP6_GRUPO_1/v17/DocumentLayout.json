@@ -1,0 +1,181 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Asus\\Documents\\TUP 2do ano 1er cuatr\\Programaci\u00F3n III\\TP6_GRUPO_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5CDF7263-37BC-4302-AC95-6B9958446868}|TP6_GRUPO_1\\TP6_GRUPO_1.csproj|c:\\users\\asus\\documents\\tup 2do ano 1er cuatr\\programaci\u00F3n iii\\tp6_grupo_1\\tp6_grupo_1\\seleccionarproductos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{5CDF7263-37BC-4302-AC95-6B9958446868}|TP6_GRUPO_1\\TP6_GRUPO_1.csproj|solutionrelative:tp6_grupo_1\\seleccionarproductos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CDF7263-37BC-4302-AC95-6B9958446868}|TP6_GRUPO_1\\TP6_GRUPO_1.csproj|c:\\users\\asus\\documents\\tup 2do ano 1er cuatr\\programaci\u00F3n iii\\tp6_grupo_1\\tp6_grupo_1\\seleccionarproductos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CDF7263-37BC-4302-AC95-6B9958446868}|TP6_GRUPO_1\\TP6_GRUPO_1.csproj|solutionrelative:tp6_grupo_1\\seleccionarproductos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CDF7263-37BC-4302-AC95-6B9958446868}|TP6_GRUPO_1\\TP6_GRUPO_1.csproj|c:\\users\\asus\\documents\\tup 2do ano 1er cuatr\\programaci\u00F3n iii\\tp6_grupo_1\\tp6_grupo_1\\inicio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{5CDF7263-37BC-4302-AC95-6B9958446868}|TP6_GRUPO_1\\TP6_GRUPO_1.csproj|solutionrelative:tp6_grupo_1\\inicio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CDF7263-37BC-4302-AC95-6B9958446868}|TP6_GRUPO_1\\TP6_GRUPO_1.csproj|c:\\users\\asus\\documents\\tup 2do ano 1er cuatr\\programaci\u00F3n iii\\tp6_grupo_1\\tp6_grupo_1\\ejercicio1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CDF7263-37BC-4302-AC95-6B9958446868}|TP6_GRUPO_1\\TP6_GRUPO_1.csproj|solutionrelative:tp6_grupo_1\\ejercicio1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CDF7263-37BC-4302-AC95-6B9958446868}|TP6_GRUPO_1\\TP6_GRUPO_1.csproj|C:\\Users\\Asus\\Documents\\TUP 2do ano 1er cuatr\\Programaci\u00F3n III\\TP6_GRUPO_1\\tp6_grupo_1\\gestionproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CDF7263-37BC-4302-AC95-6B9958446868}|TP6_GRUPO_1\\TP6_GRUPO_1.csproj|solutionrelative:tp6_grupo_1\\gestionproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CDF7263-37BC-4302-AC95-6B9958446868}|TP6_GRUPO_1\\TP6_GRUPO_1.csproj|C:\\Users\\Asus\\Documents\\TUP 2do ano 1er cuatr\\Programaci\u00F3n III\\TP6_GRUPO_1\\tp6_grupo_1\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CDF7263-37BC-4302-AC95-6B9958446868}|TP6_GRUPO_1\\TP6_GRUPO_1.csproj|solutionrelative:tp6_grupo_1\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CDF7263-37BC-4302-AC95-6B9958446868}|TP6_GRUPO_1\\TP6_GRUPO_1.csproj|c:\\users\\asus\\documents\\tup 2do ano 1er cuatr\\programaci\u00F3n iii\\tp6_grupo_1\\tp6_grupo_1\\ejercicio2.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{5CDF7263-37BC-4302-AC95-6B9958446868}|TP6_GRUPO_1\\TP6_GRUPO_1.csproj|solutionrelative:tp6_grupo_1\\ejercicio2.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CDF7263-37BC-4302-AC95-6B9958446868}|TP6_GRUPO_1\\TP6_GRUPO_1.csproj|c:\\users\\asus\\documents\\tup 2do ano 1er cuatr\\programaci\u00F3n iii\\tp6_grupo_1\\tp6_grupo_1\\ejercicio2.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CDF7263-37BC-4302-AC95-6B9958446868}|TP6_GRUPO_1\\TP6_GRUPO_1.csproj|solutionrelative:tp6_grupo_1\\ejercicio2.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CDF7263-37BC-4302-AC95-6B9958446868}|TP6_GRUPO_1\\TP6_GRUPO_1.csproj|C:\\Users\\Asus\\Documents\\TUP 2do ano 1er cuatr\\Programaci\u00F3n III\\TP6_GRUPO_1\\tp6_grupo_1\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CDF7263-37BC-4302-AC95-6B9958446868}|TP6_GRUPO_1\\TP6_GRUPO_1.csproj|solutionrelative:tp6_grupo_1\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Inicio.aspx",
+              "DocumentMoniker": "C:\\Users\\Asus\\Documents\\TUP 2do ano 1er cuatr\\Programaci\u00F3n III\\TP6_GRUPO_1\\TP6_GRUPO_1\\Inicio.aspx",
+              "RelativeDocumentMoniker": "TP6_GRUPO_1\\Inicio.aspx",
+              "ToolTip": "C:\\Users\\Asus\\Documents\\TUP 2do ano 1er cuatr\\Programaci\u00F3n III\\TP6_GRUPO_1\\TP6_GRUPO_1\\Inicio.aspx",
+              "RelativeToolTip": "TP6_GRUPO_1\\Inicio.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-17T18:23:12.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SeleccionarProductos.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Documents\\TUP 2do ano 1er cuatr\\Programaci\u00F3n III\\TP6_GRUPO_1\\TP6_GRUPO_1\\SeleccionarProductos.aspx.cs",
+              "RelativeDocumentMoniker": "TP6_GRUPO_1\\SeleccionarProductos.aspx.cs",
+              "ToolTip": "C:\\Users\\Asus\\Documents\\TUP 2do ano 1er cuatr\\Programaci\u00F3n III\\TP6_GRUPO_1\\TP6_GRUPO_1\\SeleccionarProductos.aspx.cs",
+              "RelativeToolTip": "TP6_GRUPO_1\\SeleccionarProductos.aspx.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T18:19:58.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SeleccionarProductos.aspx",
+              "DocumentMoniker": "C:\\Users\\Asus\\Documents\\TUP 2do ano 1er cuatr\\Programaci\u00F3n III\\TP6_GRUPO_1\\TP6_GRUPO_1\\SeleccionarProductos.aspx",
+              "RelativeDocumentMoniker": "TP6_GRUPO_1\\SeleccionarProductos.aspx",
+              "ToolTip": "C:\\Users\\Asus\\Documents\\TUP 2do ano 1er cuatr\\Programaci\u00F3n III\\TP6_GRUPO_1\\TP6_GRUPO_1\\SeleccionarProductos.aspx",
+              "RelativeToolTip": "TP6_GRUPO_1\\SeleccionarProductos.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-17T18:02:41.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Ejercicio1.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Documents\\TUP 2do ano 1er cuatr\\Programaci\u00F3n III\\TP6_GRUPO_1\\TP6_GRUPO_1\\Ejercicio1.aspx.cs",
+              "RelativeDocumentMoniker": "TP6_GRUPO_1\\Ejercicio1.aspx.cs",
+              "ToolTip": "C:\\Users\\Asus\\Documents\\TUP 2do ano 1er cuatr\\Programaci\u00F3n III\\TP6_GRUPO_1\\TP6_GRUPO_1\\Ejercicio1.aspx.cs",
+              "RelativeToolTip": "TP6_GRUPO_1\\Ejercicio1.aspx.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAUwBYAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T00:08:33.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GestionProductos.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Documents\\TUP 2do ano 1er cuatr\\Programaci\u00F3n III\\TP6_GRUPO_1\\TP6_GRUPO_1\\GestionProductos.cs",
+              "RelativeDocumentMoniker": "TP6_GRUPO_1\\GestionProductos.cs",
+              "ToolTip": "C:\\Users\\Asus\\Documents\\TUP 2do ano 1er cuatr\\Programaci\u00F3n III\\TP6_GRUPO_1\\TP6_GRUPO_1\\GestionProductos.cs",
+              "RelativeToolTip": "TP6_GRUPO_1\\GestionProductos.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAUwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T22:46:25.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccesoDatos.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Documents\\TUP 2do ano 1er cuatr\\Programaci\u00F3n III\\TP6_GRUPO_1\\TP6_GRUPO_1\\AccesoDatos.cs",
+              "RelativeDocumentMoniker": "TP6_GRUPO_1\\AccesoDatos.cs",
+              "ToolTip": "C:\\Users\\Asus\\Documents\\TUP 2do ano 1er cuatr\\Programaci\u00F3n III\\TP6_GRUPO_1\\TP6_GRUPO_1\\AccesoDatos.cs",
+              "RelativeToolTip": "TP6_GRUPO_1\\AccesoDatos.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T22:38:08.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Ejercicio2.aspx",
+              "DocumentMoniker": "C:\\Users\\Asus\\Documents\\TUP 2do ano 1er cuatr\\Programaci\u00F3n III\\TP6_GRUPO_1\\TP6_GRUPO_1\\Ejercicio2.aspx",
+              "RelativeDocumentMoniker": "TP6_GRUPO_1\\Ejercicio2.aspx",
+              "ToolTip": "C:\\Users\\Asus\\Documents\\TUP 2do ano 1er cuatr\\Programaci\u00F3n III\\TP6_GRUPO_1\\TP6_GRUPO_1\\Ejercicio2.aspx",
+              "RelativeToolTip": "TP6_GRUPO_1\\Ejercicio2.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-17T18:00:18.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Ejercicio2.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Documents\\TUP 2do ano 1er cuatr\\Programaci\u00F3n III\\TP6_GRUPO_1\\TP6_GRUPO_1\\Ejercicio2.aspx.cs",
+              "RelativeDocumentMoniker": "TP6_GRUPO_1\\Ejercicio2.aspx.cs",
+              "ToolTip": "C:\\Users\\Asus\\Documents\\TUP 2do ano 1er cuatr\\Programaci\u00F3n III\\TP6_GRUPO_1\\TP6_GRUPO_1\\Ejercicio2.aspx.cs",
+              "RelativeToolTip": "TP6_GRUPO_1\\Ejercicio2.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T18:00:23.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Documents\\TUP 2do ano 1er cuatr\\Programaci\u00F3n III\\TP6_GRUPO_1\\TP6_GRUPO_1\\Producto.cs",
+              "RelativeDocumentMoniker": "TP6_GRUPO_1\\Producto.cs",
+              "ToolTip": "C:\\Users\\Asus\\Documents\\TUP 2do ano 1er cuatr\\Programaci\u00F3n III\\TP6_GRUPO_1\\TP6_GRUPO_1\\Producto.cs",
+              "RelativeToolTip": "TP6_GRUPO_1\\Producto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T22:38:13.774Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
